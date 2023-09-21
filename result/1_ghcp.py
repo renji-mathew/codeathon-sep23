@@ -17,4 +17,8 @@ def sort_string_by_frequency(s):
     
     return sorted_string
 
-sort_string_by_frequency("hello world hi")
+assert sort_string_by_frequency('hello world') == 'llloohe wrd'
+assert sort_string_by_frequency('tree') == 'eetr'
+assert sort_string_by_frequency('') == ''
+assert sort_string_by_frequency('a') == 'a'
+assert sort_string_by_frequency('ab') == 'ab'
